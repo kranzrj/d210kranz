@@ -1,0 +1,22 @@
+searched for &, <, >
+none found
+
+searched for the empty spaces
+find: \n{3,}
+replace: \n\n
+
+marked paragraphs
+find: (\n{2,})([^\n]+(?:\n[^\n]+)*)(?=\n{2,}|\z)
+replace: \1<p>\2</p>\1
+
+removed whitespace again
+find: \n{3,}
+replace: \n\n
+
+added chapter and title elements
+find: ^\s*([IVXLCDM]+\.)\s+(.+)$
+replace: \n<chapter>\1</chapter> <title>\2</title>
+
+surrounded and replaced quotation marks
+find: "([^"]+)"
+replace: <quote>\1</quote>
