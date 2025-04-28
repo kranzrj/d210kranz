@@ -12,8 +12,6 @@
      height="368px"
      viewBox="0 0 773 368"
      >
-<title></title>
-<desc>Creator: Creator: Cytoscape via FreeHEP Graphics2D Driver Producer: org.freehep.graphicsio.svg.SVGGraphics2D Source: </desc>
 <g stroke-dashoffset="0" stroke-linejoin="miter" stroke-dasharray="none" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10">
 <g fill="#ffffff" fill-rule="nonzero" fill-opacity="1" stroke="none">
   <path d="M 0 0 L 773 0 L 773 368 L 0 368 L 0 0 z"/>
